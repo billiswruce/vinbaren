@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  min-height: 10dvh;
+  margin: 0;
+  margin-top: 2rem;
+}
+.loggan {
+  height: 85px;
+}
+
+main {
+  width: 100%;
+  min-height: 50dvh;
+}
+
+footer {
+  width: 100%;
+  min-height: 30dvh;
+}

@@ -1,0 +1,74 @@
+$primary-color: #dfd8ca;
+$secondary-color: #747264;
+$accent-color: #3C3633;
+
+footer {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding:  1rem  0; 
+  display: flex;
+  justify-content: space-between;
+
+  #links {
+    font-family: "Amatic SC", sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+  }
+
+  .info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-align: left;
+
+
+    p {
+      margin: 0.1rem 0;
+      a {
+        color: $accent-color;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  #cheese {
+    height: 100px;
+  }
+
+  #friends {
+ color: black;
+ font-style: italic;
+ margin-right: 1rem;
+
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+    img {
+      width: 24px;
+      height: 24px;
+      margin-right: 0.5rem;
+        filter: invert(1);
+
+      &:hover {
+        filter: invert(40%);
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
